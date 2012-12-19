@@ -1,0 +1,113 @@
+@import url('http://fonts.googleapis.com/css?family=Schoolbell');
+@import url('http://fonts.googleapis.com/css?family=Kreon:400,700');
+
+@Kreon: 'Kreon', serif;
+@Schoolbell: 'Schoolbell', 'Comic Sans', cursive, sans-serif;
+
+body {
+    font-family: @Kreon;
+    font-size: 17px;
+}
+
+a {
+    color: #376e8a;
+}
+
+#header > h1 {
+    font-family: @Schoolbell;
+    font-size: 40px;
+    text-align: center;
+    //color: #BB9826;
+}
+
+#nav {
+    text-align: center;
+
+    & > ul {
+        display: inline-block;
+    }
+
+    a {
+        background-color: whiteSmoke; // #eee
+        border: 1px solid rgb(227, 227, 227);
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05) inset;
+    }
+    .active a, a:hover {
+        background-color: #E3E3E3; // #e2e2e2
+        color: rgb(0, 85, 128);
+    }
+}
+
+#illustration {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -100;
+
+    img {
+        height: 500px;
+    }
+}
+
+#content {
+    //background-color: rgba(255, 255, 255, 0.8);
+}
+
+#news {
+    //width: 940px;
+
+    & > h3 {
+        margin-top: 0;
+    }
+}
+
+table#hours {
+    width: 600px;
+}
+
+.profile {
+    width: 200px;
+    height: 270px;
+
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+    text-align: center;
+
+    border: 1px solid rgb(225, 225, 232);
+
+    .name {
+        font-family: @Schoolbell;
+        font-size: 1.1em;
+    }
+
+    code.login {
+        display: block;
+        //font-style: italic;
+        border: 0;
+    }
+
+    img {
+        max-height: 200px;
+    }
+}
+
+#overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+
+    transition-property: background-color;
+    transition-duration: 1s;
+    -webkit-transition-property: background-color;
+    -webkit-transition-duration: 1s;
+
+    @media screen and (max-width: 1400px) {
+    background-color: rgba(255, 255, 255, 0.7);
+
+    }
+}

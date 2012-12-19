@@ -1,0 +1,70 @@
+{
+  "achievements": [
+    {
+        "name": "Tigers wreck the grade curve",
+        "url": "http://www.gocomics.com/calvinandhobbes/1986/02/10",
+        "reason": "100 on a homework assignment",
+        "count": "7"
+    },
+    {
+        "name": "We're being graded?",
+        "url": "http://www.gocomics.com/calvinandhobbes/1987/02/02",
+        "reason": "Above 90% on an exam",
+        "count": "12"
+    },
+    {
+        "name": "Can I help it I'm so fast?",
+        "url": "http://www.gocomics.com/calvinandhobbes/1987/02/04",
+        "reason": "Above 80% on each homework assignment",
+        "count": "0"
+    },
+    {
+        "name": "Evidently some bug",
+        "url": "http://www.gocomics.com/calvinandhobbes/1986/10/06",
+        "reason": "TeX up a homework",
+        "count": "20"
+    },
+    {
+        "name": "A couple hours unsupervised",
+        "url": "http://www.gocomics.com/calvinandhobbes/1986/03/04",
+        "reason": "SECRET",
+        "count": "1"
+    },
+    {
+        "name": "Accept danger and live to the fullest",
+        "url": "http://www.gocomics.com/calvinandhobbes/1986/02/11",
+        "reason": "SECRET",
+        "count": "4"
+    },
+    {
+        "name": "What's a pronoun?",
+        "url": "http://www.gocomics.com/calvinandhobbes/1986/02/24",
+        "reason": "SECRET",
+        "count": "1"
+    },
+    {
+        "name": "Your oeuvre is monochromatic",
+        "url": "http://www.gocomics.com/calvinandhobbes/1990/02/22",
+        "reason": "SECRET",
+        "count": "3"
+    },
+    {
+        "name": "It is against my religious principles",
+        "url": "http://www.gocomics.com/calvinandhobbes/1986/01/07",
+        "reason": "SECRET",
+        "count": "4"
+    },
+    {
+        "name": "A phrenologist's dream come true",
+        "url": "http://www.gocomics.com/calvinandhobbes/1991/02/26",
+        "reason": "SECRET",
+        "count": "0"
+    },
+    {
+        "name": "Dinosaurs eat anywhere they want",
+        "url": "http://www.gocomics.com/calvinandhobbes/1987/02/06",
+        "reason": "SECRET",
+        "count": "1"
+    }
+  ]
+}

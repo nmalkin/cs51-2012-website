@@ -1,0 +1,91 @@
+extends template
+
+block title
+    title Hours and Staff - CS 51
+
+block illustration
+    #illustration
+        img(src='img/faces.png')
+
+block content
+    h2 Hours
+    if typeof(changes) !== 'undefined'
+        .row
+            .well.span6!= changes
+    table.table.table-condensed#hours
+        include ../var/hours
+    ul
+        li All hours are held in the Moonlab
+
+    h2 Contact
+    p Email us @cs.brown.edu
+    .row
+        .span6
+            ul
+                // Wording stolen from CS 19
+                li
+                    code cs051tas
+                    br
+                    | In general, please always send email to the entire course staff by writing to cs051tas. This goes to all the TAs, the Head TA, and the Professor. 
+                li
+                    code cs051headtas
+                    br
+                    | If you have a sensitive issue that you don't want the TAs to see, write to cs051headtas. This goes only to the Head TA and the Professor. 
+
+
+    a(name='staff')
+    h2 Staff
+    .row
+        .profile
+            p: code.login jes
+            .name (Professor) 
+                a(href='http://www.cs.brown.edu/people/faculty/jes.html') John Savage
+            p: img(src='img/characters/jes.png')
+        .profile
+            p: code.login nmalkin
+            .name (Head TA) Nathan Malkin
+            p: img(src='img/characters/nmalkin.png')
+    .row
+        .profile
+            p: code.login ewald
+            .name Eli Wald
+            p: img(src='img/characters/ewald.png')
+        .profile
+            p: code.login hdrosen
+            .name Hannah Rosen
+            p: img(src='img/characters/hdrosen.png')
+        .profile
+            p: code.login jmw7
+            .name James Walsh
+            p: img(src='img/characters/jmw7.png')
+    .row
+        .profile
+            p: code.login jsleavit
+            .name Jon Leavitt
+            p: img(src='img/characters/jsleavit.png')
+        .profile
+            p: code.login pclay
+            .name Patrick Clay
+            p: img(src='img/characters/pclay.png')
+        .profile
+            p: code.login zkahn
+            .name Zach Kahn
+            p: img(src='img/characters/zkahn.png')
+
+    script
+        <!--
+        (function() {
+            var filename = /\/(\w+)\.(png|jpg)$/; // See? You use regular expressions in real life too!
+            var images = document.querySelectorAll('.profile img');
+            Array.prototype.forEach.call(images, function(image) {
+                image.addEventListener('mouseover', function() {
+                    var login = filename.exec(this.src)[1];
+                    this.src = 'img/faces/' + login + '.jpg';
+                });
+                image.addEventListener('mouseout', function() {
+                    var login = filename.exec(this.src)[1];
+                    this.src = 'img/characters/' + login + '.png';
+                });
+            });
+        })();
+        -->

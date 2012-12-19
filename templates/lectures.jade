@@ -1,0 +1,27 @@
+extends template
+
+block title
+    title Lecture Notes - CS 51
+
+block illustration
+    #illustration
+        img(src='img/enhancetron.png')
+
+block content
+    h2 Lecture Notes &amp; Reading
+    table.table
+        tr
+            th Date
+            th Lecture
+            th Topic
+            th Reading
+        for lecture in lectures
+            tr
+                td= lecture.date
+                td= lecture.id
+                if lecture.available
+                    td
+                        a(href='lectures/lecture#{lecture.id}.pdf') #{lecture.title}
+                else
+                    td= lecture.title
+                td= lecture.reading

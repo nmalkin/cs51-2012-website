@@ -1,0 +1,71 @@
+extends template
+
+block title
+    title Resources - CS 51
+
+block illustration
+    #illustration
+        img(src='img/rest.png')
+
+block content
+    h2 Documents
+    p
+        | The following documents set out the expectations for this course. 
+        | Please be sure to read them.
+    ul
+        li
+            a(href='documents/syllabus.pdf') Course Syllabus
+        li
+            a(href='documents/collab_policy.pdf') Collaboration Policy
+
+    h2 Recommended Reading
+    ul
+        li
+            a(href='http://www.modelsofcomputation.org/')
+                i Models of Computation
+                |  by Prof. John Savage
+        li
+            i Introduction to the Theory of Computation
+            |  by Michael Sipser
+        li
+            i The complete Calvin and Hobbes
+            |  by Bill Watterson
+    
+    h2 Software
+    ul
+        li
+            a(href='http://www.madebyevan.com/fsm/') Finite State Machine Designer
+            |  by Evan Wallace
+        li
+            a(href='https://github.com/eliwald/Arrows-and-Circles') Arrows and Circles
+            |  by Eddie Grystar, Plane Janthong, Sandy Student, and Eli Wald
+        li
+            a(href='http://ozark.hendrix.edu/~burch/logisim/') Logisim
+            |  for circuit design
+
+    h2
+        // via Wikipedia:
+        <span style="letter-spacing: 3px">L<span style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;">a</span>T<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;">e</span>X</span></span>
+    // via CS 157: http://www.cs.brown.edu/courses/cs157/documents.xml
+    ul
+        <li><a href="http://miktex.org/2.9/setup">Download LaTeX for Windows (MiKTeX)</a></li>
+        <li><a href="http://tug.org/mactex/">Download LaTeX for Macs (MacTeX)</a></li>
+        <li><a href="http://detexify.kirelabs.org/classify.html">An awesome widget that gives LaTeX symbols based on handwriting (Detexify^2)</a></li>
+        <li><a href="http://www.cs.brown.edu/system/software/latex/doc/lshort.pdf">A Not So Short Introduction to LaTeX2e</a></li>
+        <li><a href="http://www.cs.brown.edu/system/software/latex/doc/symbols.pdf">LaTeX Symbols</a></li>
+        <li><a href="http://en.wikibooks.org/wiki/LaTeX/Introduction">LaTeX Wikibook</a></li>
+        <li><a href="http://for.mat.bham.ac.uk/R.W.Kaye/latex/el2e.pdf">Essential LaTeX</a></li>
+        <li><a href="http://www.artofproblemsolving.com/Wiki/index.php/LaTeX:About">AOPS LaTeX</a></li>
+
+    h2 Just for Fun
+    ul
+        li
+            a(href='http://www.complex-systems.com/pdf/20-2-2.pdf') Robust Soldier Crab Ball Gate
+        li
+            a(href='http://www.lel.ed.ac.uk/~gpullum/loopsnoop.html') Scooping the Loop Snooper
+            |  by 
+            a(href='http://www.brown.edu/Departments/CLPS/people/geoffrey-pullum') Geoffrey Pullum
+            | , on the halting problem
+        li
+            i: a(href='http://www.youtube.com/watch?v=utWEwiAk25M') No deciding
+            , a song of Turing Machines

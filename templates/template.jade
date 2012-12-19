@@ -1,0 +1,30 @@
+- var pages = { 'index': 'Home', 'lectures': 'Lectures', 'assignments': 'Assignments', 'staff': 'Hours &amp; Staff', 'labs': 'Labs', 'documents': 'Resources', 'achievements': 'Calvinball' };
+doctype 5
+html(lang='en')
+    head
+        block head
+            meta(charset='utf-8')
+            block title
+                title CS051: Models of Computation
+            link(rel='stylesheet', href='bootstrap.css')
+            link(rel='stylesheet', href='style.css')
+    body
+        .container
+            #header
+                h1 CS051: Models of Computation
+
+            #nav
+                ul.nav.nav-pills
+                    each title, page in pages
+                        if typeof(active) !== 'undefined' && page === active
+                            li.active: a(href='#{page}.html') #{title}
+                        else
+                            li: a(href='#{page}.html') #{title}
+
+            block illustration
+                #illustration
+                    img(src='img/rest.png')
+
+            #content.span9
+                block content
+            #overlay

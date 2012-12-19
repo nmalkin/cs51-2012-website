@@ -1,0 +1,22 @@
+extends template
+
+block title
+    title Labs - CS 51
+
+block append head
+    meta(name="robots", content="noindex")
+
+block illustration
+    #illustration
+        img(src='img/sled.png')
+
+block content
+    h2 Labs
+    p An integral part of CS 51 is the lab portion of the course. Attendance and participation in labs is mandatory and will contribute to your grade for the class.
+    p Students will be divided into lab sections at the beginning of the course. These sections will be split into rotating groups each week.
+    p Most homework assignments have “lab problems.” Each member of each group will be assigned one lab problem by the TAs and will be responsible for presenting a solution to it to his or her lab group during their weekly lab section. All students are responsible for writing up the solutions to all lab problems as well as all regular problems.
+    p
+        | If you are unable to attend your scheduled lab section,
+        b you must let the TAs know by the Wednesday before your lab
+        | . If you just show up at a different lab section, you won't receive credit for the lab!
+    include ../var/labs

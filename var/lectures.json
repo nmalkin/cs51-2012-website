@@ -1,0 +1,200 @@
+{
+    "lectures": [
+        {
+            "date": "9/6",
+            "id": "1",
+            "title": "Overview of the Course",
+            "reading": "Chapt. 1",
+            "available": false
+        },
+        {
+            "date": "9/11",
+            "id": "2",
+            "title": "Finite Computational Models",
+            "reading": "Chapt. 1",
+            "available": false
+        },
+        {
+            "date": "9/13",
+            "id": "3",
+            "title": "TBD",
+            "reading": "",
+            "available": false
+        },
+        {
+            "date": "9/18",
+            "id": "4",
+            "title": "Design of Logic Circuits",
+            "reading": "Sect. 2.2, 2.3",
+            "available": false
+        },
+        {
+            "date": "9/20",
+            "id": "5",
+            "title": "Shifting and Other Problems",
+            "reading": "Sect. 2.3.4, 2.5.2, 2.54, 2.12",
+            "available": false
+        },
+        {
+            "date": "9/25",
+            "id": "6",
+            "title": "The Random Access Machine",
+            "reading": "Sect. 3.4-3.6",
+            "available": false
+        },
+        {
+            "date": "9/27",
+            "id": "7",
+            "title": "Turing Machines",
+            "reading": "Chapt. 1",
+            "available": false
+        },
+        {
+            "date": "10/2",
+            "id": "8",
+            "title": "Nondeterministic Computation",
+            "reading": "Sect. 3.1",
+            "available": false
+        },
+        {
+            "date": "10/4",
+            "id": "9",
+            "title": "TM Language Recognition",
+            "reading": "Sect. 3.7, 5.1, 5.2.1, 5.5",
+            "available": false
+        },
+        {
+            "date": "10/9",
+            "id": "10",
+            "title": "Introduction to Complexity Classes",
+            "reading": "Sect. 3.9.6, 8.7",
+            "available": false
+        },
+        {
+            "date": "10/11",
+            "id": "11",
+            "title": "A First NP-Complete Language",
+            "reading": "Sect. 3.9.1, 3.9.2, 3.9.3",
+            "available": false
+        },
+        {
+            "date": "10/16",
+            "id": "12",
+            "title": "Proving a Language NP-Complete",
+            "reading": "Sect. 8.10.1, 8.10.2",
+            "available": false
+        },
+        {
+            "date": "10/18",
+            "id": "13",
+            "title": "Review I",
+            "reading": "",
+            "available": false
+        },
+        {
+            "date": "10/23",
+            "id": "14",
+            "title": "Equivalence of the DFSM and FSM",
+            "reading": "Sect. 4.2",
+            "available": false
+        },
+        {
+            "date": "10/25",
+            "id": "15",
+            "title": "Regular Expressions are Recognized by FSMs",
+            "reading": "Sect. 4.3, 4.4.1",
+            "available": false
+        },
+        {
+            "date": "10/30",
+            "id": "16",
+            "title": "FSMs Recognize Regular Expressions",
+            "reading": "Sect. 4.4.2",
+            "available": false
+        },
+        {
+            "date": "11/1",
+            "id": "17",
+            "title": "The Chomsky Language Hierarchy",
+            "reading": "Sect. 4.9",
+            "available": false
+        },
+        {
+            "date": "11/6",
+            "id": "18",
+            "title": "Parsing Context-Free Languages",
+            "reading": "Sect. 4.10, 4.11",
+            "available": false
+        },
+        {
+            "date": "11/8",
+            "id": "19",
+            "title": "Context-Free and Phrase Structure Languages",
+            "reading": "Sect. 4.13",
+            "available": false
+        },
+        {
+            "date": "11/13",
+            "id": "20",
+            "title": "Review II",
+            "reading": "",
+            "available": false
+        },
+        {
+            "date": "11/15",
+            "id": "",
+            "title": "Midterm II",
+            "reading": "",
+            "available": false
+        },
+        {
+            "date": "11/20",
+            "id": "21",
+            "title": "Limits to Language Recognition",
+            "reading": "Sect. 5.6, 5.7, 5.8, 8.2, 8.3",
+            "available": false
+        },
+        {
+            "date": "11/22",
+            "id": "",
+            "title": "Thanksgiving",
+            "reading": "",
+            "available": false
+        },
+        {
+            "date": "11/27",
+            "id": "22",
+            "title": "Approximations to Hard Problems",
+            "reading": "",
+            "available": false
+        },
+        {
+            "date": "11/29",
+            "id": "23",
+            "title": "Space-Time Tradeoffs",
+            "reading": "",
+            "available": false
+        },
+        {
+            "date": "12/4",
+            "id": "24",
+            "title": "Memory Hierarchies",
+            "reading": "Sect. 8.8, 8.9, 8.14",
+            "available": false
+        },
+        {
+            "date": "12/6",
+            "id": "25",
+            "title": "TBD",
+            "reading": "",
+            "available": false
+        },
+        {
+            "date": "12/11",
+            "id": "26",
+            "title": "Review III",
+            "reading": "",
+            "available": false
+        }
+    ]
+}

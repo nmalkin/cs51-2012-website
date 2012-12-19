@@ -1,0 +1,33 @@
+extends template
+
+block title
+    title Assignments - CS 51
+
+block illustration
+    #illustration
+        img(src='img/revenge.png')
+
+block content
+    h2 Assignments
+    p Homeworks are due at 12:55pm, before the start of class.
+    p Please note that solutions can only be accessed from within the department.
+    table.table
+        tr
+            th Homework
+            th Solution
+            th Out
+            th In
+        for asgn in assignments
+            tr
+                if asgn.available
+                    td: a(href='documents/#{asgn.id}.pdf') #{asgn.name}
+                else
+                    td= asgn.name
+                td
+                    if asgn.solution
+                        a(href='http://web-int/courses/cs051/documents/solutions/#{asgn.id}.sol.pdf') Solution
+                td= asgn.in
+                td= asgn.out
+
+                
+

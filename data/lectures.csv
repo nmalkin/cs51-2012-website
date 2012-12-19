@@ -1,0 +1,28 @@
+9/6,1,Overview of the Course,Chapt. 1
+9/11,2,Finite Computational Models,Chapt. 1
+9/13,3,TBD,
+9/18,4,Design of Logic Circuits,"Sect. 2.2, 2.3"
+9/20,5,Shifting and Other Problems,"Sect. 2.3.4, 2.5.2, 2.54, 2.12"
+9/25,6,The Random Access Machine,Sect. 3.4-3.6
+9/27,7,Turing Machines,Chapt. 1
+10/2,8,Nondeterministic Computation,Sect. 3.1
+10/4,9,TM Language Recognition,"Sect. 3.7, 5.1, 5.2.1, 5.5"
+10/9,10,Introduction to Complexity Classes,"Sect. 3.9.6, 8.7"
+10/11,11,A First NP-Complete Language,"Sect. 3.9.1, 3.9.2, 3.9.3"
+10/16,12,Proving a Language NP-Complete,"Sect. 8.10.1, 8.10.2"
+10/18,13,Review I,
+10/23,14,Equivalence of the DFSM and FSM,Sect. 4.2
+10/25,15,Regular Expressions are Recognized by FSMs,"Sect. 4.3, 4.4.1"
+10/30,16,FSMs Recognize Regular Expressions,Sect. 4.4.2
+11/1,17,The Chomsky Language Hierarchy,Sect. 4.9
+11/6,18,Parsing Context-Free Languages,"Sect. 4.10, 4.11"
+11/8,19,Context-Free and Phrase Structure Languages,Sect. 4.13
+11/13,20,Review II,
+11/15,,Midterm II,
+11/20,21,Limits to Language Recognition,"Sect. 5.6, 5.7, 5.8, 8.2, 8.3"
+11/22,,Thanksgiving,
+11/27,22,Approximations to Hard Problems,
+11/29,23,Space-Time Tradeoffs,
+12/4,24,Memory Hierarchies,"Sect. 8.8, 8.9, 8.14"
+12/6,25,TBD,
+12/11,26,Review III,

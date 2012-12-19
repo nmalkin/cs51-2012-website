@@ -1,0 +1,7 @@
+Developed by Nathan Malkin for CS 51 in Fall 2012
+
+Technology
+- Jade
+- Less CSS
+- Twitter Bootstrap
+- Google Web Fonts

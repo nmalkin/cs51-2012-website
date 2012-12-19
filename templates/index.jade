@@ -1,0 +1,27 @@
+extends template
+
+block illustration
+    #illustration
+        img(src='img/wagon.png')
+
+block head append
+    meta(name="description", content="Undergraduate course on the foundations of computing and theoretical computer science at the Brown University, Department of Computer Science")
+    link(rel='author', href='humans.txt')
+
+block content
+    include ../var/news
+     
+    h2 About CS 51
+    - var quote = "As you can see, I've memorized this utterly useless fact long enough to pass a test question. I now intend to forget it forever. You've taught me nothing except how to cynically manipulate the system. Congratulations."
+    p: img(src='img/facts.gif', alt=quote, title=quote)
+    p In CS 51, we won't ask you to memorize any utterly useless facts (or even thoroughly useful ones!).
+        br
+        | We're after something bigger.
+    p All your life you've been faced with computational problems, from sharing toys with friends to the programming assignment you just handed in. But what does it mean to compute something? What makes some problems harder than others? Are there questions even 
+        a(href='http://www.gocomics.com/calvinandhobbes/1993/07/06') the world's most powerful computer
+        |  can't answer?
+    p We'll answer these questions and, in the process, explore important concepts such as Turing machines, languages, reductions, and NP-completeness.
+    p It's a magical world, the world of theoretical computer science, and we hope you'll join us in exploring it!
+    p Sincerely,
+    p(style='margin-left:70px') the course 
+        a(href='staff.html#staff') staff

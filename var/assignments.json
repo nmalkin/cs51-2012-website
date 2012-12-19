@@ -1,0 +1,108 @@
+{
+    "assignments": [
+        {
+            "id": "0",
+            "name": "Homework 0: Boolean Logic",
+            "in": "9/11",
+            "out": "9/18",
+            "available": false,
+            "solution": false
+        },
+        {
+            "id": "1",
+            "name": "Homework 1: Design of Logic Circuits",
+            "in": "9/18",
+            "out": "9/25",
+            "available": false,
+            "solution": false
+        },
+        {
+            "id": "2",
+            "name": "Homework 2: Shifting and Other Problems",
+            "in": "9/25",
+            "out": "10/2",
+            "available": false,
+            "solution": false
+        },
+        {
+            "id": "3",
+            "name": "Homework 3: Nondeterministic Computation",
+            "in": "10/2",
+            "out": "10/9",
+            "available": false,
+            "solution": false
+        },
+        {
+            "id": "4",
+            "name": "Homework 4: Reductions",
+            "in": "10/9",
+            "out": "10/16",
+            "available": false,
+            "solution": false
+        },
+        {
+            "id": "5",
+            "name": "Homework 5: Proving a Language NP-Complete",
+            "in": "10/16",
+            "out": "10/23",
+            "available": false,
+            "solution": false
+        },
+        {
+            "id": "6",
+            "name": "Midterm 1",
+            "in": "10/23",
+            "out": "10/30",
+            "available": false,
+            "solution": false
+        },
+        {
+            "id": "7",
+            "name": "Homework 6: FSMs and Regular Expressions",
+            "in": "10/30",
+            "out": "11/6",
+            "available": false,
+            "solution": false
+        },
+        {
+            "id": "8",
+            "name": "Homework 7: Regular Languages",
+            "in": "11/6",
+            "out": "11/13",
+            "available": false,
+            "solution": false
+        },
+        {
+            "id": "9",
+            "name": "Homework 8: Context-Free and Phrase Structure Languages",
+            "in": "11/13",
+            "out": "11/20",
+            "available": false,
+            "solution": false
+        },
+        {
+            "id": "10",
+            "name": "Midterm 2",
+            "in": "11/15",
+            "out": "11/15",
+            "available": false,
+            "solution": false
+        },
+        {
+            "id": "11",
+            "name": "Homework 9: Limits to Language Recognition",
+            "in": "11/20",
+            "out": "12/4",
+            "available": false,
+            "solution": false
+        },
+        {
+            "id": "12",
+            "name": "Homework 10: Approximations to Hard Problems",
+            "in": "12/4",
+            "out": "12/11",
+            "available": false,
+            "solution": false
+        }
+    ]
+}

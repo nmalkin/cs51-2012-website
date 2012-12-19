@@ -1,0 +1,30 @@
+extends template
+
+block title
+    title Calvinball - CS 51
+
+block illustration
+    #illustration
+        img(src='img/party.png')
+
+block content
+    h2 Calvinball
+    p
+        | For the duration of the course, the staff will engage you in a semester-long game of 
+        a(href='http://en.wikipedia.org/wiki/Calvin_and_Hobbes#Calvinball') Calvinball
+        | . Scores will be awarded (primarily) for exceptional or unusual accomplishments on CS 51 homeworks or exams.
+        | Your Calvinball score does not impact your grade in any way, 
+        | but you will, of course, get bragging rights.
+        | You'll know if you scored with your homework or exam, because the TAs will write a special message on the front with your score and the reason for it.
+
+    table.table
+        tr
+            th What?
+            th How?
+            th How many?
+
+        for achievement in achievements
+            tr
+                td: a(href='#{achievement.url}') #{achievement.name}
+                td= achievement.reason
+                td= achievement.count
